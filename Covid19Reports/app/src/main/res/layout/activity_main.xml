@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Covid 19 daywise Infromation!"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="2dp"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:id="@+id/date"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textSize="30sp"
+        android:textColor="#00BCD4"
+        android:layout_margin="10dp"
+        android:id="@+id/country"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Active"
+        android:textSize="30sp"
+        android:textColor="#FF5722"
+        android:layout_margin="10dp"
+        android:id="@+id/active"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recovered"
+        android:textSize="30sp"
+        android:textColor="#0FCD17"
+        android:layout_margin="10dp"
+        android:id="@+id/recovered"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmed"
+        android:textSize="30sp"
+        android:textColor="#E91E63"
+        android:layout_margin="10dp"
+        android:id="@+id/confirmed"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deaths"
+        android:textSize="30sp"
+        android:textColor="#7C5E5C"
+        android:layout_margin="10dp"
+        android:id="@+id/deaths"/>
+</LinearLayout>
